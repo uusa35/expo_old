@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="878.5 5035.5 15.586 19">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #6c6b68;
+        stroke-linecap: round;
+        fill-rule: evenodd;
+      }
+
+      .cls-1 {
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="Icon-map" transform="translate(878.656 5035.652)">
+    <path id="Stroke-1" class="cls-1" d="M7.638.348A7.379,7.379,0,0,0,2.481,12.918l5.157,5.429,5.157-5.429A7.379,7.379,0,0,0,7.638.348Z" transform="translate(0 0)"/>
+    <path id="Stroke-3" class="cls-2" d="M9.341,6.976A2.431,2.431,0,1,1,6.91,4.522,2.443,2.443,0,0,1,9.341,6.976Z" transform="translate(0.728 0.735)"/>
+  </g>
+</svg>

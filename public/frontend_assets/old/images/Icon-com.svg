@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="420.58 14051.917 15.882 19.365">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #fac05a;
+        stroke-linecap: round;
+      }
+
+      .cls-2 {
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="Icon-com" transform="translate(404.667 14038)">
+    <path id="Path_45" data-name="Path 45" class="cls-1" d="M4.961,2.5A2.48,2.48,0,1,1,2.48,0a2.492,2.492,0,0,1,2.48,2.5Z" transform="translate(21.374 19.426)"/>
+    <path id="Path_44" data-name="Path 44" class="cls-2" d="M7.441,0A7.528,7.528,0,0,0,2.179,12.826l5.262,5.54,5.262-5.54A7.528,7.528,0,0,0,7.441,0Z" transform="translate(16.413 14.417)"/>
+  </g>
+</svg>
