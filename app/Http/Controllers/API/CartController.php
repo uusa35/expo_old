@@ -4,12 +4,14 @@ namespace App\Http\Controllers\API;
 
 use App\Http\Controllers\Controller;
 use App\Models\Cart;
+use App\Models\DeliveryPrice;
 use App\Models\Expo;
 use App\Models\Order;
 use App\Models\Product;
 use App\Models\Slider;
 use App\Models\UserOrder;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Auth;
 use Validator;
 
@@ -17,6 +19,9 @@ class CartController extends Controller
 {
     public function index(Request $request)
     {
+        $this->validate($request,[
+            'country_id' => 'required'
+        ]);
         $user = '';
         if(auth()->check())
         {
@@ -26,6 +31,10 @@ class CartController extends Controller
         if($device_id != ""){
             $cart = Cart::query()->where('device_id', $device_id)->get();
             $total = $cart->sum('total');
+
+//            $deliverPrice = DeliveryPrice::query()
+//                ->where('country_id',$request->get('country_id'))->
+
             $total = number_format((float)$total, 3, '.', '');
             if(empty($cart)){
                 $cart = [];
