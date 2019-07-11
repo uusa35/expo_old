@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1439 5160 42 42">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke-linecap: square;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-1 {
+        stroke: #13110c;
+      }
+
+      .cls-2 {
+        stroke: #fac05a;
+      }
+    </style>
+  </defs>
+  <g id="percentage-38" transform="translate(1438 5159)">
+    <circle id="Ellipse_7" data-name="Ellipse 7" class="cls-1" cx="20" cy="20" r="20" transform="translate(2 2)"/>
+    <circle id="Ellipse_8" data-name="Ellipse 8" class="cls-2" cx="3.636" cy="3.636" r="3.636" transform="translate(11.091 11.091)"/>
+    <circle id="Ellipse_9" data-name="Ellipse 9" class="cls-2" cx="3.636" cy="3.636" r="3.636" transform="translate(25.636 25.636)"/>
+    <line id="Line_9" data-name="Line 9" class="cls-2" y1="14.545" x2="14.545" transform="translate(14.727 14.727)"/>
+  </g>
+</svg>

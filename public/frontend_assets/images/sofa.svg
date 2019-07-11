@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1265 5164 46 36">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #fac05a;
+      }
+
+      .cls-1, .cls-3, .cls-4 {
+        stroke-linecap: square;
+      }
+
+      .cls-3 {
+        stroke: #13110c;
+      }
+
+      .cls-4 {
+        stroke: #444;
+      }
+    </style>
+  </defs>
+  <g id="sofa" transform="translate(1264 5158)">
+    <line id="Line_15" data-name="Line 15" class="cls-1" y1="21" transform="translate(24 7)"/>
+    <path id="Path_55" data-name="Path 55" class="cls-2" d="M6,19V11a4.012,4.012,0,0,1,4-4H38a4.012,4.012,0,0,1,4,4v8" transform="translate(0 0)"/>
+    <line id="Line_16" data-name="Line 16" class="cls-3" y1="4" transform="translate(6 37)"/>
+    <line id="Line_17" data-name="Line 17" class="cls-3" y1="4" transform="translate(42 37)"/>
+    <path id="Path_56" data-name="Path 56" class="cls-4" d="M30,21" transform="translate(0 0)"/>
+    <path id="Path_57" data-name="Path 57" class="cls-3" d="M46,37V23.5A4.481,4.481,0,0,0,41.5,19h0A4.481,4.481,0,0,0,37,23.5V28H11V23.5A4.481,4.481,0,0,0,6.5,19h0A4.481,4.481,0,0,0,2,23.5V37Z" transform="translate(0 0)"/>
+  </g>
+</svg>
