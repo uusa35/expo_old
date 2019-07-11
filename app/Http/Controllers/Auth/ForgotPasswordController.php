@@ -132,7 +132,6 @@ class ForgotPasswordController extends Controller
     
     public function forgetpasswordForWeb(Request $request)
     {
-        
         $validator = Validator::make($request->all(), [
             'email' => 'required|email',
         ]);
@@ -164,7 +163,6 @@ class ForgotPasswordController extends Controller
     
     public function forgetpassword(Request $request)
     {
-        
         $validator = Validator::make($request->all(), [
             'email' => 'required|email',
         ]);

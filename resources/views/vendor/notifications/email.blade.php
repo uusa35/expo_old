@@ -30,7 +30,7 @@
             $color = 'blue';
     }
 ?>
-<?$actionUrl_new=str_replace('http://localhost', 'http://tarteeb.linekw.com',$actionUrl)?>
+<?php $actionUrl_new=str_replace('http://localhost', 'http://tarteeb.linekw.com',$actionUrl)?>
 @component('mail::button', ['url' => $actionUrl_new, 'color' => $color])
 {{ $actionText }}
 @endcomponent
