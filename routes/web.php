@@ -53,13 +53,7 @@ Route::group(
     
     Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');
     Route::post('login', 'Auth\LoginController@login');
-    
 
-
-    
-    
-    
-    
     //Route::get('/privacy','CP\HomeController@privacy');
     //Route::get('/terms','CP\HomeController@terms');
     Route::group(array('prefix' => 'admin', 'middleware' => ['auth', 'admin']), function () {
